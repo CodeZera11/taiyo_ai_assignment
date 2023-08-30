@@ -23,6 +23,10 @@ const Home = () => {
 
                     {/* Link to Dashboard */}
                     <Link to={"/charts-and-maps"} className='bg-gray-200 text-lg px-2 py-1 md:px-4 md:py-2 rounded-full hover:bg-gray-400 transition-colors ease-in-out duration-200 md:text-xl font-bold '>Charts And Maps</Link>
+
+                    {/* Link to Code */}
+
+                    <Link to={"https://github.com/CodeZera11/taiyo_ai_assignment"} className='bg-gray-200 text-lg px-2 py-1 md:px-4 md:py-2 rounded-full hover:bg-gray-400 transition-colors ease-in-out duration-200 md:text-xl font-bold '>Code</Link>
                 </div>
             </div>
         </div>
